@@ -1,0 +1,290 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	line-height: 35px;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.col-lg-6{
+	width: 50%;
+	float: left;
+
+}
+.col-lg-12{
+	width: 100%;
+	
+}
+.col-lg-4{
+	width: 33.33%;
+	float: left;
+}
+/*Gloabal CSS part is ENd*/
+/*Header part is StarT*/
+.header-part{
+	width: 100%;
+	background: #F6F9F9;
+	float: left;
+	padding: 20px 0px;
+}
+.logo{
+	width: 100%;
+	float: left;
+}
+.title-part{
+	width: 100%;
+	text-align: center;
+	background-color: #F6F9F9;
+	float: left;
+	padding: 80px 0px;
+}
+.title-part h1{
+	width: 100%;
+	font-size: 35px;
+	line-height: 45px;
+	font-weight: 400px;
+}
+.title-part p{
+	
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400px;
+
+}
+.banner-part{
+	width: 100%;
+	background-image: url(../images/image.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 120px 0px;
+
+}
+.banner-part .inner-banner{
+	width: 100%;
+	padding: 100px 0px;
+}
+.inner-banner h1{
+	font-size: 70px;
+	line-height: 80px;
+	color: white;
+	font-weight: bold;
+}
+.inner-banner p{
+	font-size: 16px;
+	line-height: 26px;
+	color: white;
+	font-weight: 400px;
+	margin-bottom: 40px;
+}
+.inner-banner .divider{
+	width: 40%;
+	background: #15a4fa;
+	margin: 20px auto;
+	height: 2px;
+}
+.inner-banner .btn-info{
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	padding: 15px 30px;
+	border: 2px solid #15a4fa;
+	background: transparent;
+	transition: 1s;
+	
+}
+.inner-banner .btn-info:hover{
+	background: blue;
+	color: white
+}
+.features-image{
+	width: 100%;
+	padding: 80px 0px;
+	float: left;
+
+}
+.features-image .inner-images{
+	width: 100%;
+	padding: 0px 20px;
+	text-align: center;
+	float: left;
+
+}
+.features-image .inner-images img{
+
+}
+.features-image .inner-images h4{
+	font-size: 18px;
+	line-height: 28px;
+	color: black;
+	font-weight: 600px;
+	
+}
+.features-image .inner-images p{
+	font-size: 14px;
+	line-height: 24px;
+	color: black;
+	font-weight: 400px;
+	
+}
+.Showcase-part{
+	width: 100%;
+	float: left;
+	background: #F6F9F9;
+	padding: 80px 0px;
+}
+
+.Showcase-part h1{
+	width: 100%;
+	font-size: 35px;
+	line-height: 45px;
+	font-weight: 400px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.Showcase-part p{
+	
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: #999999;
+
+}
+.inner-showcase{
+	
+	width: 100%;
+	float: left;
+	position: relative;
+	margin: 10px 0px;
+}
+.inner-showcase .hover-part{
+	width: 95%;
+	height: 98%;
+	top: 0;
+	left: 0;
+	background: rgba(51, 151, 255,.5);
+	position: absolute;
+	display: none;
+}
+.hover-part .icon{
+	position: absolute;
+	top: 43%;
+	left: 38%;
+}
+.hover-part .icon img{
+	 margin-right: 5px;
+}
+.inner-showcase:hover .hover-part{
+	display: block;
+}
+.contactform-part{
+	width: 100%;
+	float: left;
+	background: url(../images/bg.png) center top;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+}
+
+.contactform-part h1{
+	width: 100%;
+	font-size: 45px;
+	line-height: 55px;
+	font-weight: 400px;
+	text-align: center;
+	margin-bottom: 15px;
+	color: white;
+}
+.contactform-part p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: #999999;
+}
+.text-right{
+	text-align: right;
+}
+.contact-form{
+	width: 50%;
+	margin: 40px auto 0px;
+}
+.contact-form .form-group{
+	width: 100%;
+	float: left;
+	margin: 3px;
+}
+.contact-form .form-group .form-control{
+	width: 100%;
+	padding: 15px;
+	background: transparent;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 500px;
+	color: #999999;
+}
+.contact-form .form-group span{
+	margin-left: 10px;
+	font-size: 14px;
+	color: #fff;
+}
+.contact-form .form-group .btn-info{
+	padding: 10px 22px;
+	background: transparent;
+	border: #999999;
+	border: 1px solid #999999;
+	font-size: #fff;
+	font-weight: 700px;
+	color: white;
+	margin-left: 235px;
+	margin-top: 5px;
+	border: 1px solid #15a4fa;
+}
+.footer{
+	width: 100%;
+	float: left;
+	padding: 15px 0px; 	
+}
+.footer p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: black;
+}
+.social-icons{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+	display: block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	background: #0099ff;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
